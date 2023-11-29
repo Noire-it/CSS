@@ -1,27 +1,75 @@
-.dif {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30vh;
-    margin-bottom: 1rem;
-    background-color: hsl(203, 23%, 48%);
-    color: white;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    overflow-y: hidden;
+    background-color: hsl(194, 45%, 77%);
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
 }
 
-.display {
+.container {
     height: 65vh;
-    overflow-y: auto;
-    background-color: hsl(203, 23%, 48%);
-    color: white;
+    width: 80vw;
+    background-color: hsl(195, 43%, 52%);
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 70px auto 70px;
+    grid-template-areas: 
+      "header header header"
+      "aside main section"
+      "footer footer footer";
 }
 
-p {
-    background-color: hsl(203, 65%, 54%);
-    width: max-content;
-    border-radius: 1rem;
-    padding: 1rem;
+header {
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+main {
+    grid-area: main;
+    display: grid;
+}
+
+.Half {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+article {
+    border: solid 2px hsl(207, 91%, 35%);
+    padding: 10px;
+    margin: 5px;
+}
+
+aside {
+    grid-area: aside;
+    display: grid;
+}
+
+section {
+    grid-area: section;
+    display: grid;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+main {
+    background-color: hsl(207, 83%, 57%);
+}
+
+aside {
+    background-color: hsl(207, 91%, 69%);
+}
+
+section {
+    background-color: hsl(207, 91%, 69%);
 }
