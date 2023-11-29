@@ -1,2 +1,2 @@
 # Grid
-First ever try to really take on a grid. 
+First ever try to really take on grid. 
