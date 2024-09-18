@@ -1,2 +1,3 @@
-# Grid
-First ever try to really take on grid. 
+#JS
+
+Poczatek legendarnej przygody z css w moim skromnym wykonaniu
