@@ -1,0 +1,10 @@
+3 strony
+2 -> teoria testow
+1 => o mnie
+
+źródła muszo być
+ - typy i rodzaje testuf
+ - 7 zasad testowania
+
+https://niepelnosprawni.pl/ledge/x/261310
+https://www.w3schools.com/css/css_navbar_horizontal.asp
